@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>practice2</title>
+  <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+  <form>
+    <div>
+      <label>お名前
+        <input type="text" placeholder="例::MAKOTO">
+      </label>
+    </div>
+    <fieldset>
+      <legend>対象の言語</legend>
+      <label><input type="checkbox">html</label>
+      <label><input type="checkbox">css</label>
+      <label><input type="checkbox">javascript</label>
+      <label><input type="checkbox">php</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>IT系就職</legend>
+      <label><input type="radio" name="warranty" checked>希望</label>
+      <label><input type="radio" name="warranty">希望しない</label>
+      <label><input type="radio" name="warranty">わからない</label>
+    </fieldset>
+
+    <div>性別
+      <label><input type="radio" name="gender">男性</label>
+      <label><input type="radio" name="gender">女性</label>
+    </div>
+
+    <div>
+      年齢
+      <select name="age">
+        <option value="20">20代</option>
+        <option value="30">30代</option>
+        <option value="40">40代</option>
+      </select>
+    </div>
+    <label>
+      パスワード<input type="password">
+    </label>
+    <br>
+    <label>
+      指導回数
+      <input type="number">
+    </label>
+    <br>
+    <label>
+      日付
+      <input type="date">
+    </label>
+    <br>
+    <label>
+      種別
+      <select>
+        <option>--お問合せ種別を選択してください--</option>
+        <option>料金確認</option>
+        <option>サポート内容を確認</option>
+        <option>学べる勉強を確認</option>
+        <option>決済手段を確認</option>
+        <option>その他</option>
+      </select>
+    </label>
+
+    <div>お問い合わせカテゴリーを選択してください</div>
+    <label>
+      内容
+      <textarea cols="30" rows="5" required placeholder="例：その他の記入欄"></textarea>
+    </label>
+    <div>
+      <input type="submit" value="登録">
+    </div>
+    <div>
+      <input type="submit" value="送信する" disabled>
+    </div>
+  </form>
+</body>
+
+</html>
